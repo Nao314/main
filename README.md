@@ -290,7 +290,7 @@
                     <div class="game-content">
                         <h2>競馬ゲーム</h2>
                         <p class="game-description">
-                            馬が駆け抜けるスピード感と戦略を楽しむ競馬ゲームです
+                            見るだけ競馬ゲーム（？）
                         </p>
                         <a href="https://nao314.github.io/keiba/" class="play-button">今すぐプレイ</a>
                     </div>
