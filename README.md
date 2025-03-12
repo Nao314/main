@@ -120,6 +120,14 @@
             align-items: center;
         }
         
+        /* 競馬ゲーム用の画像。Unsplashの競馬関連イメージを利用 */
+        .horse-image {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/400x320/?horse,racing') center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
         .game-content {
             padding: 1.5rem;
             flex-grow: 1;
@@ -234,10 +242,10 @@
                 <div class="game-card">
                     <div class="game-image invader-image">
                         <div class="pixel-art floating">
-     ███
-    █████
-   ███████
-  █ █   █ █
+ ███
+█████
+███████
+█ █   █ █
                         </div>
                     </div>
                     <div class="game-content">
@@ -252,11 +260,11 @@
                 <div class="game-card">
                     <div class="game-image tower-image">
                         <div class="pixel-art floating">
-    ╱┃╲
-   ╱ ┃ ╲
-  ╱__┃__╲
-     ┃
-   ▀███▀
+╱┃╲
+╱ ┃ ╲
+╱__┃__╲
+   ┃
+ ▀███▀
                         </div>
                     </div>
                     <div class="game-content">
@@ -265,6 +273,26 @@
                             割と普通のタワーディフェンス
                         </p>
                         <a href="https://nao314.github.io/tower" class="play-button">今すぐプレイ</a>
+                    </div>
+                </div>
+                
+                <!-- 競馬ゲームのカード追加 -->
+                <div class="game-card">
+                    <div class="game-image horse-image">
+                        <div class="pixel-art floating">
+   __/| 
+  /  o\____
+ /       o )
+|  o       |
+ \________/
+                        </div>
+                    </div>
+                    <div class="game-content">
+                        <h2>競馬ゲーム</h2>
+                        <p class="game-description">
+                            馬が駆け抜けるスピード感と戦略を楽しむ競馬ゲームです
+                        </p>
+                        <a href="https://nao314.github.io/keiba/" class="play-button">今すぐプレイ</a>
                     </div>
                 </div>
             </div>
